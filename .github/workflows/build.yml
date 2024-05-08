@@ -4,7 +4,8 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps:
+      - run: echo "Luther Williams Sandria"
       - run: node --version
-      - run: npm --version
+      - run: echo "Exp. 735869"
       - uses: actions/checkout@v4
       - run: node app.js
